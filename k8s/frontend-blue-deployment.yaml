@@ -21,7 +21,7 @@ spec:
       containers:
       - name: frontend-blue
         image: your-username/frontend-blue:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 3100
           name: http
