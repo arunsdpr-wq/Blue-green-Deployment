@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: frontend-green
-        image: your-username/frontend-green:latest
+        image: learnhv2026/frontend-green:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3200
